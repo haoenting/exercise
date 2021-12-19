@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct node{
+struct node{ //定義node這個struct 紀錄資料和指向的下一個節點
 	int data;
 	struct node *next;
 };
