@@ -7,7 +7,7 @@ struct node{
 };
 typedef struct node Node;
 
-int main(int argc, char *argv[])
+int main()
 {
   int i,val,num;
   Node *first,*current,*previous;
